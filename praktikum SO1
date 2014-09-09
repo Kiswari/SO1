@@ -1,0 +1,56 @@
+TUGAS PRAKTIKUM SISTEM OPERASI 1
+INTAN YULI KISWARI
+G64120006
+Exercise 3
+Pada exercise 1, telah dilakukan pembukaan terminal, terminal window akan muncul kosong:
+ 
+Kondisi awal di dalam home ada beberapa direktory yang muncul dengan command ls
+ 
+Membuat direktori hello.txt denan contain “Hello world ! this is a text file.
+Dalam gambar dibawah juga  nampak pemunculan kembali isi dari folder hello.txt menggunakan command  cat hello.txt
+ 
+Exercise 3:
+1.	Membuat folder secret_of_the_universe
+2.	Menampilkan directori apa saja yang ada di home  dengan command ls
+
+ 
+3.	Menampilkan isi dari secret_of_the_universe menggunakan command untuk membuat  file, tapi tanpa tanda “>”. Dilakukan dengan menghapus tanda >
+ 
+
+ 
+
+  
+Isi dari file secret_of_the_universe akan muncul.
+
+ 
+
+Exercise 4:
+1.	Mengkopi  file secret_of_the_universe dengan nama file answer.txt 
+Kemudian cek dengan command ls,  maka akan muncul file anwer.txt dengan isi yang sama dengan file secret_of_the_universe di bagian home.
+ 
+
+2.	Mengkopi file hello.txt yang telah dibuat di exercise 2 dengan nama file answer.txt. (atau sama dengan nama file yang digunakan untuk mengkopi file secret_of_the_universe)
+maka file answer.txt akan tetap 1 di dalam home.
+Namun ketika file answer yang sekarang ada di home dibuka dengan command ls , maka isinya yang muncul tidak lagi sama dengan file secret_of_the_universe, tetapi akan sama dengan file hello.txt yang berisi kalimat “hello world, dst.
+ 
+
+3.	Menghapus file hello.txt
+Dengan command rm hello.txt, maka file helo.txt akan hilang dari home.
+
+
+
+ 
+
+4.	Merubah nama Ike answer.txt dengan nama file message
+Ini dilakukan dengan command mv
+ 
+
+5.	Menghapus Ike dengan nama missing.
+Akan muncul pesan seperti dibawah ini bahwa file missing tidak ditemukan, karena memang sebelumya kita tidak pernah membuat Ike missing dan sebelumnya memang tidak ada Ike dengan nama  missing di dalam Home.
+
+ 
+
+6.	Mengkopi seret_of_the_universe dengan nama Ike yang tidak ditentukan.
+Jendela akan menampilkan pesan eror, karena belum ada nama file yang akan menjadi duplikasi dari file seret_of_the_universe.
+
+ 
